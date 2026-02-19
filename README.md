@@ -1,25 +1,34 @@
 # Bit-Chain Integrity
 
-## Overview
-The Bit-Chain Integrity project aims to ensure the integrity of blockchain transactions through innovative algorithms and methodologies that verify and maintain the consistency and security of the blockchain data.
+Minimal bit-level integrity chain demonstration.
 
-## Features
-- **Data Verification**: Implements robust techniques to verify data integrity.
-- **Security Protocols**: Incorporates high-level security measures to protect against data breaches.
-- **User-Friendly Interface**: Offers an intuitive interface for users to interact with the blockchain.
+This repository contains a very small conceptual model:
+a chain of blocks where each block’s integrity depends on the previous one.
 
-## Installation
-To install and run the Bit-Chain Integrity project, follow these steps:
-1. Clone the repository: `git clone https://github.com/LonnDonn/bit-chain-integrity.git`
-2. Navigate to the project directory: `cd bit-chain-integrity`
-3. Install dependencies: `npm install`
-4. Start the application: `npm start`
+It is NOT:
 
-## Contributing
-We welcome contributions from the community! To contribute:
-1. Fork the repository
-2. Create a new branch for your feature or bug fix
-3. Submit a pull request
+- a blockchain
+- a cryptocurrency
+- a production system
+- a networked application
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+It is a conceptual integrity primitive.
+
+---
+
+## Purpose
+
+The goal of this project is to demonstrate the simplest possible form of linked integrity, where a single bit-level change breaks the chain.
+
+This concept is intended to serve as a foundational idea for integrity-first verification architectures.
+
+---
+
+## Status
+
+Minimal conceptual demo.
+
+- No external dependencies
+- No networking
+- No persistence
+- Just integrity
